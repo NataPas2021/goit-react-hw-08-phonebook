@@ -1,0 +1,25 @@
+.list {
+  list-style: none;
+}
+
+.contact {
+    color: black;
+    font-size: medium;
+    font-weight: 500;
+    margin-right: 8px;
+    margin-bottom: 3px;
+}
+
+.deleteButton {
+  margin-left: 5px;
+  background-color: lightgray;
+  border-radius: 10px;
+  border: transparent;
+}
+
+.deleteButton:hover {
+    background-color:aquamarine;
+    cursor: pointer;
+    border: 1px solid gray;
+    scale: 1.1;
+}

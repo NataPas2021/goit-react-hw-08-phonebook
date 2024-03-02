@@ -1,0 +1,14 @@
+.appContainer {
+    position: absolute;
+    height: 100vh;
+    /* left: 50%;
+    top: 10%; */
+    margin: 0 auto;
+    display: block;
+    justify-content: center;
+    padding: 15px; 
+    align-items: center;
+    font-size: 40;
+    color: #010101;
+    border: 1px black bold;
+}
