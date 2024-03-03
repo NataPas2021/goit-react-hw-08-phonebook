@@ -16,7 +16,9 @@ const AppRoutes = () => {
         <Routes>
             <Route path="/" element={<SharedLayout/>}>
                 <Route index element={<HomePage />} /> 
-                <Route path="goit-react-hw-08-phonebook" element={<HomePage/>}/>
+                <Route path="goit-react-hw-08-phonebook" element={<HomePage />}>
+                    <Route path="my-contacts" element={<MyContactsPage/>}/>
+                </Route>
                 <Route element={<PublicRoute />}>
                     <Route path="signup" element={<RegisterPage />} />
                     <Route path="login" element={<LoginPage />} /> 
