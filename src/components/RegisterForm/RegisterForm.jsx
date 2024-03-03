@@ -37,7 +37,7 @@ const RegisterForm = ({ onSubmit }) => {
     return (
         <form onSubmit={handleSubmit}>
             <div className={css.block}>
-              <label htmlFor={inputNameId}>Name:</label>
+              <label htmlFor={inputNameId} className={css.label}>Name</label>
               <input className={css.input}
                  type="text"
                  name="name"
@@ -49,7 +49,7 @@ const RegisterForm = ({ onSubmit }) => {
                  required/>  
             </div>
             <div className={css.block}>
-              <label htmlFor={inputEmailId}>Email:</label>
+              <label htmlFor={inputEmailId} className={css.label}>Email</label>
               <input className={css.input}
                  type="email"
                  name="email"
@@ -61,7 +61,7 @@ const RegisterForm = ({ onSubmit }) => {
                  required/>
             </div>
             <div className={css.block}>
-                <label htmlFor={inputPasswordID}>Password:</label>
+                <label htmlFor={inputPasswordID} className={css.label}>Password</label>
                 <input className={css.input}
                  type="password"
                  name="password"

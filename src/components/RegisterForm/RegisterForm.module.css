@@ -1,9 +1,10 @@
 .block {
-    display: flex;
+    display: block;
     align-items: center;
     margin-bottom: 15px;
 }
 
-.block label {
+.label {
+    display: block;
     width: 80px;
 }
